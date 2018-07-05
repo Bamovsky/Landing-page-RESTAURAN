@@ -18,6 +18,10 @@
 	}
 }
 
+html {
+	font-size: 16px; /*Изменять размер шрифта тута*/
+}
+
 body {
 	font-family: 'Sintony', sans-serif;
 	color: #878d91;
@@ -32,7 +36,7 @@ ul, li {
 button, 
 button:active, 
 button:focus {
-    outline: none;
+	outline: none;
 }
 
 .logo{
@@ -47,7 +51,7 @@ button:focus {
 .menu__item {
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 0.875rem;
 }
 
 .menu__item a {
@@ -90,11 +94,28 @@ button:focus {
 
 .book__text {
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 0.875rem;
 	font-weight: 700;
 	margin: 0;
 	color: #fff;
 }
+
+.icon {
+	display: none;
+	position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icon__img {
+	width: 40px;
+	height: 40px;
+}
+
+.icon__img:hover {
+	cursor: pointer;
+}
+
 /*конец шапки*/
 
 .intro {
@@ -102,25 +123,25 @@ button:focus {
 }
 
 .title {
-	padding: 233px 0 252px 0;
+	padding: 21% 0 22.7% 0;
 }
 
 .title__text {
 	color: #fff;
 	font-family: 'Playfair Display', serif;
-	font-size: 56px;
+	font-size: 3.5rem;
 	font-weight: 700;
 	margin: 0;
 	line-height: 0.7em;
 }
 
 .title__text_from{
-	font-size: 40px;
+	font-size: 2.5rem;
 }
 
 .title__text_lux {
 	color: #fea100;
-	font-size: 40px;
+	font-size: 2.5rem;
 }
 
 /*конец header*/
@@ -131,7 +152,7 @@ button:focus {
 
 
 .info {
-	height: 100px;
+	padding: 2.08% 0;
 }
 
 .info__icon img {
@@ -141,7 +162,7 @@ button:focus {
 .info__text {
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 1rem;
 	margin-right: 45px;
 	color: #14141d;
 	line-height: 1.2em;
@@ -149,11 +170,11 @@ button:focus {
 
 .info__text span {
 	color: #fea100;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 .info__number {
-	font-size: 36px;
+	font-size: 2.25rem;
 	font-weight: 700;
 	color: #14141d;
 }
@@ -167,16 +188,16 @@ button:focus {
 
 .aboutInfo__header {
 	color: #14141d;
-	font-size: 46px;
+	font-size: 2.875rem;
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
-	padding-top: 120px; 
+	padding-top: 22%; 
 	margin: 0;
 }
 
 .aboutInfo__intro {
-	padding-top: 40px; 
-	padding-bottom: 40px;
+	padding-top: 7.407407407%; 
+	padding-bottom: 7.407407407%;
 	color: #5c6369;
 	margin: 0;
 }
@@ -187,7 +208,7 @@ button:focus {
 	background: #fea100;
 	border-radius: 4px;
 	color: #fff;
-	margin-bottom: 120px; 
+	margin-bottom: 22%; 
 }
 
 .aboutInfo__read p {
@@ -196,6 +217,11 @@ button:focus {
 	margin: 0;
 	padding: 0;
 	color: #fff;
+}
+
+.food1 img, .food2 img {
+	width: 100%;
+	height: 100%;
 }
 
 .food1 {
@@ -222,41 +248,41 @@ button:focus {
 	font-family: 'Playfair Display', serif;
 	color: #fff;
 	font-weight: 700;
-	font-size: 46px;
-	padding-top: 100px;
-	margin-bottom: 30px;
+	font-size: 2.875rem;
+	padding-top:  9.009009009%;
+	margin-bottom: 2.702702702%;
 }
 
 .cart {
 	box-shadow: 0 25px 30px rgba(0,0,0,0.1);
-	margin-bottom: 125px;
+	margin-bottom: 23.148148148%;
 }
 
 .cart__img {
 	width: 100%;
-	margin-bottom: 50px; 
+	margin-bottom: 9.259259259%; 
 }
 
 .cart__header {
 	text-align: center;
 	color: #14141d;
 	font-family: 'Playfair Display', serif;
-	font-size: 35px;
+	font-size: 2.1875rem;
 	font-weight: 700;
-	margin-bottom: 20px; 
+	margin-bottom: 3.703703703%; 
 }
 
 .cart__text {
 	color: #878d91;
 	text-align: center;
-	width: 430px;
+	width: 80%;
 	margin: 0 auto 0 auto;
-	padding-bottom: 60px;
+	padding-bottom: 11.111111111%;
 	border-bottom: solid 1px #e1e1e1;
 }
 
 .cart__info {
-	padding: 25px 0 35px 0;
+	padding: 4.629629629% 0 6.111111111% 0;
 }
 
 .cart__home {
@@ -264,8 +290,8 @@ button:focus {
 	text-transform: uppercase;
 	color: #14141d;
 	font-weight: 700;
-	font-size: 17px;
-	padding: 0 20px 0 33px;
+	font-size: 1.0625rem;
+	padding: 0 4.629629629% 0 6.111111111%;
 }
 
 .cart__home span {
@@ -275,15 +301,15 @@ button:focus {
 .cart__number {
 	font-weight: 700;
 	color: #000;
-	padding-top: 7px;
-	font-size: 26px;
+	padding-top: 1.296296296%;
+	font-size: 1.625rem;
 }
 
 .cart__price {
 	font-weight: 700;
 	color: #fea100;
-	font-size: 30px;
-	padding-right: 36px;
+	font-size: 1.875rem;
+	padding-right: 6.666666666%;
 }
 
 footer {
@@ -295,7 +321,7 @@ footer {
 }
 
 .links__items {
-	padding-top: 75px;
+	padding-top: 6.58%;
 	width: 175px;
 	margin: 0 auto;
 }
@@ -322,9 +348,9 @@ footer {
 }
 
 .copy {
-	padding: 50px 0 50px 0;
+	padding: 14.285% 0 14.285% 0;
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 1.0625rem;
 }
 
 .line {
@@ -334,3 +360,129 @@ footer {
 	background: #52535e;
 }	
 
+ 
+@media (max-width: 992px) {
+.logo{
+	margin: 24px 0 0 0; 
+}
+.book {
+	margin: 15px 0 15px 0;
+}
+.icon {
+	display: block;
+}
+.menu {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	transition: all 0.6s ease-in 0;
+}
+.menu__item {
+	font-size: 1.375rem;
+	text-align: center;
+}
+.aboutInfo__header {
+	padding-top: 10%;
+}
+.aboutInfo__read {
+	margin-bottom: 10%;
+}
+}
+
+
+@media (max-width: 768px){
+.info__number {
+	font-size: 1.8rem;
+}
+}
+
+@media (max-width: 575px){
+.aboutInfo__header{
+	text-align: center;
+}
+.aboutInfo__intro {
+	text-align: center;
+}
+.aboutInfo__read {
+	margin: 0 auto 10% auto;
+}
+.cart__home {
+	border: none;
+	padding: 0;
+}
+.cart__price {
+	padding: 0;
+	margin: 0;
+}
+}
+
+
+@media (max-width: 510px){
+.title__text {
+	font-size: 2.8rem;
+	line-height: 1.1em;
+}
+.title__text_from{
+	font-size: 2.2rem;
+}
+.title__text_lux {
+	color: #fea100;
+	font-size: 2.2rem;
+}
+.info {
+	flex-direction: column;
+	align-items: center;
+}
+.info__text{
+	margin: 0;
+}
+.info__icon {
+	display: none;
+}
+.cart__text {
+	color: #000;
+}
+}
+
+
+
+@media (max-width: 424px) {
+.title__text {
+	font-size: 2.4rem;
+	line-height: 1.1em;
+}
+.title__text_from{
+	font-size: 1.8rem;
+}
+.title__text_lux {
+	color: #fea100;
+	font-size: 1.8rem;
+}
+.aboutInfo__header {
+	font-size: 1.9rem;
+}
+.special__header {
+	font-size: 2.4rem;
+}
+}
+
+
+@media (max-width: 374px){
+.title__text {
+	font-size: 2rem;
+	line-height: 1.1em;
+}
+.title__text_from{
+	font-size: 1.5rem;
+}
+.title__text_lux {
+	color: #fea100;
+	font-size: 1.5rem;
+}
+.icon__img {
+    width: 30px;
+    height: 30px;
+}
+}
