@@ -72,6 +72,10 @@ button:focus {
 	background: #fea100;
 	border:none;
 	outline: none;
+	text-transform: uppercase;
+	font-size: 0.875rem;
+	font-weight: 700;
+	color: #fff;
 }
 
 .book:hover {
@@ -89,15 +93,6 @@ button:focus {
 
 .book img {
 	margin-right: 15px;
-}
-
-
-.book__text {
-	text-transform: uppercase;
-	font-size: 0.875rem;
-	font-weight: 700;
-	margin: 0;
-	color: #fff;
 }
 
 .icon {
@@ -166,6 +161,7 @@ button:focus {
 	margin-right: 45px;
 	color: #14141d;
 	line-height: 1.2em;
+	margin-bottom: 0;
 }
 
 .info__text span {
@@ -377,7 +373,7 @@ footer {
 	flex-direction: column;
 	justify-content: space-between;
 	width: 100%;
-	transition: all 0.6s ease-in 0;
+	transition: all 0.6s ease-in 0s;
 }
 .menu__item {
 	font-size: 1.375rem;
@@ -395,6 +391,9 @@ footer {
 @media (max-width: 768px){
 .info__number {
 	font-size: 1.8rem;
+}
+.copy {
+    padding: 5% 0 5% 0;
 }
 }
 
@@ -471,7 +470,7 @@ footer {
 
 @media (max-width: 374px){
 .title__text {
-	font-size: 2rem;
+	font-size: 1.6rem;
 	line-height: 1.1em;
 }
 .title__text_from{
@@ -479,10 +478,13 @@ footer {
 }
 .title__text_lux {
 	color: #fea100;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 .icon__img {
     width: 30px;
     height: 30px;
+}
+.cart__header {
+	font-size: 1.8rem;
 }
 }
